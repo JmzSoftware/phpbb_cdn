@@ -1,8 +1,9 @@
 <?php
 /**
 *
-* @package phpBB Extension - Simple CDN
+* @package phpBB Extension - phpBB CDN
 * @copyright (c) 2016 David Yin
+* @copyright (c) 2016 Jmz Software
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -17,7 +18,7 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-   'ACP_SIMPLECDN'         => 'Simple CDN',
-   'SIMPLECDN_CONFIG'      => 'Simple CDN Settings',
+   'ACP_PHPBBCDN'         => 'phpBB CDN',
+   'PHPBBCDN_CONFIG'      => 'phpBB CDN Settings',
 ));
 

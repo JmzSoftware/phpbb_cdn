@@ -1,8 +1,9 @@
 <?php
 /**
 *
-* @package phpBB Extension - Simple CDN
+* @package phpBB Extension - phpBB CDN
 * @copyright (c) 2016 David yin
+* @copyright (c) 2016 Jmz Software
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
 *
 */
@@ -38,18 +39,18 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-   'ACP_SIMPLECDN_CONFIG'           => 'Simple CDN',
-   'ACP_SIMPLECDN_CONFIG_EXPLAIN'      => 'This is configuration page for the Simple CDN extension. The URL of static resources will be served from CDN below.',
+   'ACP_PHPBBCDN_CONFIG'           => 'phpBB CDN',
+   'ACP_PHPBBCDN_CONFIG_EXPLAIN'      => 'This is configuration page for the phpBB CDN extension. The URL of static resources will be served from CDN below.',
 
-   'ACP_SIMPLECDN_CONFIG_SET'       => 'Configuration',
-   'SIMPLECDN_CONFIG_SAVED'         => 'Simple CDN settings saved',
+   'ACP_PHPBBCDN_CONFIG_SET'       => 'Configuration',
+   'PHPBBCDN_CONFIG_SAVED'         => 'phpBB CDN settings saved',
       
-   'SIMPLECDN_ENABLE'               => 'Enable Simple CDN',
-   'SIMPLECDN_ENABLE_EXPLAIN'       => 'Do you want to enable the Simple CDN EXT?',
+   'PHPBBCDN_ENABLE'               => 'Enable phpBB CDN',
+   'PHPBBCDN_ENABLE_EXPLAIN'       => 'Do you want to enable the phpBB CDN EXT?',
 
-   'SIMPLECDN_URL'              => 'Simple CDN URL',
-   'SIMPLECDN_URL_EXPLAIN'         => 'Enter the full URL of the CDN INCLUDING  // ',
-   'SIMPLECDN_URL_PLACEHOLDER'     => '//cdn.cloudfront.net/',
+   'PHPBBCDN_URL'              => 'phpBB CDN URL',
+   'PHPBBCDN_URL_EXPLAIN'         => 'Enter the full URL of the CDN INCLUDING  // ',
+   'PHPBBCDN_URL_PLACEHOLDER'     => '//cdn.cloudfront.net/',
 
 
 ));

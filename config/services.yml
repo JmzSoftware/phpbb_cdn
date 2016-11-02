@@ -1,6 +1,6 @@
 services:
-    davidyin.simplecdn.listener:
-        class: davidyin\simplecdn\event\listener
+    jmz.phpbbcdn.listener:
+        class: jmz\phpbbcdn\event\listener
         arguments:
             - @controller.helper
             - @template

@@ -1,10 +1,10 @@
-# Simple CDN Extension
+# phpBB CDN Extension
 
 ## Installation
 
-Copy the extension to phpBB/ext/davidyin/simplecdn
+Copy the extension to phpBB/ext/jmz/phpbbcdn
 
-Go to "ACP" > "Customise" > "Extensions" and enable the "Simple CDN Extension" extension.
+Go to "ACP" > "Customise" > "Extensions" and enable the "phpBB CDN Extension" extension.
 
 
 
