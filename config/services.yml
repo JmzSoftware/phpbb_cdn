@@ -1,0 +1,10 @@
+services:
+    davidyin.simplecdn.listener:
+        class: davidyin\simplecdn\event\listener
+        arguments:
+            - @controller.helper
+            - @template
+            - @config
+            - @user
+        tags:
+            - { name: event.listener }

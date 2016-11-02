@@ -1,0 +1,28 @@
+{
+    "name": "davidyin/simplecdn",
+    "type": "phpbb-extension",
+    "description": "Service static files, such as css, js files, from CDN.",
+    "homepage": "https://www.phpbbchinese.com/viewforum.php?f=3",
+    "version": "1.0.0-dev",
+    "time": "2016-10-14",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "David Yin",
+			"username": "davidyin",
+            "email": "david@yinfor.com",
+            "homepage": "https://www.yinfor.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+		"phpbb/phpbb": ">=3.1.4 <3.2.0@dev"
+    },
+    "extra": {
+        "display-name": "Simple CDN Extension",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.1.4,<3.2.0@dev"
+        }
+    }
+}
