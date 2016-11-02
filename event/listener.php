@@ -62,10 +62,6 @@ class listener implements EventSubscriberInterface
 	}
 	public function modify_header_static_to_cdn($event)
 	{
-/**		$this->template->assign_vars(array(
-			'PHPBBCDN_ENABLE' => $this->config['phpbbcdn_enable'] ? true : false,
-			'PHPBBCDN_URL' => (isset($this->config['phpbbcdn_url'])) ? $this->config['phpbbcdn_url'] : ''
-		));**/
 		if ($this->config['phpbbcdn_enable'] && isset($this->config['phpbbcdn_url'])) {
 			$this->template->assign_vars(array(
 				'T_THEME_PATH' => $this->config['phpbbcdn_url'] . "styles/" . rawurlencode($this->user->style['style_path']) . '/theme',
